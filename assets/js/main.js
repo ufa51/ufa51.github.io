@@ -2,10 +2,10 @@ const prefix = window.location.href.split('?').length == 2 ? window.location.hre
  console.log("prefix:", prefix)
 async function checkApisAndRedirect() {
   const apiEndpoints = [
-    `https://${prefix}.la.ddns.me/api`,
-    `https://${prefix}.laos.ddns.net/api`,
-    `https://${prefix}.la2.zapto.org/api`,
-    `https://${prefix}.vp.read-books.org/api`
+    `https://ufa51.la.ddns.me/api`,
+    `https://ufa51.laos.ddns.net/api`,
+    `https://ufa51.la2.zapto.org/api`,
+    `https://ufa51.vp.read-books.org/api`
   ];
 
   // สร้าง Promise สำหรับแต่ละ API
