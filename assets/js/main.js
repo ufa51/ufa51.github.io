@@ -5,7 +5,11 @@ async function checkApisAndRedirect() {
     `https://ufa51.la.ddns.me/api`,
     `https://ufa51.laos.ddns.net/api`,
     `https://ufa51.la2.zapto.org/api`,
-    `https://ufa51.vp.read-books.org/api`
+    `https://ufa51.vp.read-books.org/api`,
+    `https://ufa51.lnw.sytes.net/api`,
+    `https://ufa51.lnw.workisboring.com/api`,
+    `https://ufa51.lnw2.serveblog.net/api`,
+   
   ];
 
   // สร้าง Promise สำหรับแต่ละ API
